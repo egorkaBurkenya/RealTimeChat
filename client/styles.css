@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: rgb(38, 37, 39);
+    color: #fafafa;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.app{
+    display: flex;
+    justify-content: space-around;   
+}
+
+.new-chat{
+    display: flex;
+    border-bottom: 1px solid #fafafa;
+    margin-top: 5px;
+}
+
+.chat, .title{
+    margin: 0 auto;
+}
+
+.title{
+    border-bottom: 1px solid #fafafa;
+}
+
+.feed{
+    overflow: auto;
+    width: 550px;
+}
+
+
+.chat{
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 500px;
+    max-width: 500px;
+    width: 60%;
+
+}
+
+.join-message{
+    font-size: 50px;
+    margin: 200px auto;
+}
+
+
+.message-input{
+    display: flex;
+    margin: 0 auto
+}
+
+.message-input-field{
+    font-family: 'Ubuntu', sans-serif;
+    background: rgb(38, 37, 39);
+    color: #fafafa;
+
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
+    border-top: 1px solid #fafafa; 
+    border-left: 1px solid #fafafa; 
+    border-bottom: 1px solid #fafafa; 
+
+    width: 400px;
+    height: 25px;
+
+    font-size: 14px;
+
+    padding: 2px 5px;
+}
+
+.error {
+
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border-top: 1px solid #ff0000; 
+    border-left: 1px solid #ff0000; 
+    border-bottom: 1px solid #ff0000;
+}
+
+.join {
+    display: flex;
+    align-items: center;
+    height: 33px;
+
+    margin-left: 5px;
+
+    padding: 10px;
+
+    outline: none;
+    border: none;
+    border-radius: 2px;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    background: rgb(71, 214, 58);
+    color: #104b19;
+}
+
+.avatar{
+    /* margin-right: px;  */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.user-name{
+    color: #ee6f34;
+    margin: 0 5px;
+}
+
+li { list-style-type: none; }
+
+hr {
+    border: none;
+    /* height: 2px; */
+    /* background: #ffb759; */
+    border: 1px dashed rgb(71, 214, 58);
+}
+
+.welcome-message-text{
+    font-size: 25px;
+    color: rgb(71, 214, 58);
+    display: flex;
+}
+
+.message-body{
+    margin: 10px;
+    align-self: flex-start;
+}
+
+.message{
+    margin-left: 5px;
+}
+
+.feed{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.message-entry-own {
+    margin: 10px;
+    align-self: flex-end; 
+}
